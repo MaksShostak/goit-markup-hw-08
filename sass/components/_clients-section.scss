@@ -1,0 +1,112 @@
+.clients {
+    @extend %section;
+
+    &__container {
+            flex-direction: column;
+            @extend %container;
+    
+        }
+    &__title {
+        margin-top: 0;
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: $font-primary;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+    
+        color: $title-text-color;
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        @extend %list
+    }
+    &__logo {
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+    &__logo-icon {
+        fill: currentColor;
+    }
+    &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        width: 170px;
+        height: 92px;
+        border: 1px solid #afb1b8;
+        border-radius: 4px;
+        color: #afb1b8;
+        transition-property: cursor, background-color, color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+        &:hover,
+        &:focus,
+        &:active {
+            cursor: pointer;
+            border-color: $accent-color;
+            color: $accent-color;
+        }
+    }
+
+}
+
+// .clients__container {
+//     flex-direction: column;
+//     @extend %container;
+
+// }
+// .clients__title {
+//     margin-top: 0;
+//     margin-bottom: 50px;
+//     text-align: center;
+//     font-family: $font-primary;        
+//     font-weight: 700;
+//     font-size: 36px;
+//     line-height: 1.16;
+//     letter-spacing: 0.03em;
+
+//     color: $title-text-color;
+// }
+// .clients__list {
+//     display: flex;
+//     align-items: center;
+//     @extend %list
+// }
+// .clients__logo{
+//     &:not(:last-child) {
+//         margin-right: 30px;
+//     }
+// }
+
+// .clients__logo-icon {
+//     fill: currentColor;
+// }
+
+// .clients__link {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     width: 170px;
+//     height: 92px;
+//     border: 1px solid #afb1b8;
+//     border-radius: 4px;
+//     color: #afb1b8;
+//     transition-property: cursor, background-color, color;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//     &:hover,
+//     &:focus,
+//     &:active {
+//             cursor: pointer;
+//             border-color: $accent-color;
+//             color: $accent-color;
+//         }
+// }
