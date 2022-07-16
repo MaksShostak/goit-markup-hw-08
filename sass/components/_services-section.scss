@@ -32,6 +32,8 @@
     }
     &__foto {
         display: block;
+        max-width: 100%;
+        height: auto;
     }
     &__header {
         position: absolute;

@@ -13,10 +13,6 @@
     &__container {
             @extend %container;
         }
-    &__navigation {
-        display: flex;
-        align-items: center;
-    }
     &__logo {
         padding-top: 25px;
         padding-bottom: 25px;
@@ -35,6 +31,12 @@
             padding-bottom: 25px;
         }
     }
+    &__navigation {
+             display: flex;
+             align-items: center;
+             flex-grow: 1;
+            
+    }
  }
 
 
@@ -42,6 +44,7 @@
        display: flex;
        align-items: center;
        @extend %list;
+      
 
     &__item-page {
             &:not(:last-child) {
@@ -98,7 +101,9 @@
         align-items: center;
         margin-left: auto;
         @extend %list;
+
     &__item {
+        
             &:not(:last-child) {
                 margin-right: 30px;
             }

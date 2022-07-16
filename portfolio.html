@@ -20,11 +20,11 @@
   <body>
     <header class="header">
       <div class="header__container container">
-        <nav class="header__navigation">
-          <a class="logo header__logo" href="./index.html">
+        <a class="logo header__logo" href="./index.html">
             <span class="logo__word-web">Web</span
             ><span class="logo__word-studio">Studio</span>
-          </a>
+        </a>
+        <nav class="header__navigation">
           <ul class="site-nav list">
             <li class="site-nav__item-page">
               <a class="site-nav__link" href="./index.html">Студия</a>
@@ -40,8 +40,7 @@
               <a class="site-nav__link" href="">Контакты</a>
             </li>
           </ul>
-        </nav>
-        <ul class="site-contact list">
+          <ul class="site-contact list">
           <li class="site-contact__item">
             <a class="site-contact__info" href="mailto:info@devstudio.com">
               <svg class="site-contact__icon" width="16px" height="12px">
@@ -58,8 +57,8 @@
               +38 096 111 11 11</a
             >
           </li>
-        </ul>
-      </div>
+          </ul>
+        </nav>
     </header>
     <main>
       <section class="portfolio section">
@@ -94,9 +93,16 @@
                 <div class="works__image-wrapper">
                   <img
                     class="works__image"
-                    src="./images/img01.jpg"
+                    srcset="
+                      ./images/img01370.jpg  370w,
+                      ./images/img01450.jpg  450w,
+                      ./images/img01740.jpg  740w,
+                      ./images/img01900.jpg  900w,
+                      ./images/img011110.jpg 1110w,
+                      ./images/img011350.jpg 1350w "
+                    src="./images/img01370.jpg"
                     alt="приклад веб сторінки відкритий на ноутбуці"
-                    width="370"
+                    sizes="(min-width: 1220px) 25vw, (min-width: 768px) 33vw, (min-width: 480px) 50vw, 100vw"
                   />
                   <p class="works__meta">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -117,9 +123,16 @@
                 <div class="works__image-wrapper">
                   <img
                     class="works__image"
-                    src="./images/img02.jpg"
+                    srcset="
+                      ./images/img02370.jpg  370w,
+                      ./images/img02450.jpg  450w,
+                      ./images/img02740.jpg  740w,
+                      ./images/img02900.jpg  900w,
+                      ./images/img021110.jpg 1110w,
+                      ./images/img021350.jpg 1350w "
+                    src="./images/img02370.jpg"
                     alt="постер New Orlean vs Golden Star"
-                    width="370"
+                    sizes="(min-width: 1220px) 25vw, (min-width: 768px) 33vw, (min-width: 480px) 50vw, 100vw"
                   />
                   <p class="works__meta">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -141,9 +154,16 @@
                 <div class="works__image-wrapper">
                   <img
                     class="works__image"
-                    src="./images/img03.jpg"
+                    srcset="
+                      ./images/img03370.jpg  370w,
+                      ./images/img03450.jpg  450w,
+                      ./images/img03740.jpg  740w,
+                      ./images/img03900.jpg  900w,
+                      ./images/img031110.jpg 1110w,
+                      ./images/img031350.jpg 1350w "
+                    src="./images/img03370.jpg"
                     alt="логотип ресторана Seafood"
-                    width="370"
+                    sizes="(min-width: 1220px) 25vw, (min-width: 768px) 33vw, (min-width: 480px) 50vw, 100vw"
                   />
                   <p class="works__meta">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -163,9 +183,16 @@
                 <div class="works__image-wrapper">
                   <img
                     class="works__image"
-                    src="./images/img04.jpg"
+                    srcset="
+                      ./images/img04370.jpg  370w,
+                      ./images/img04450.jpg  450w,
+                      ./images/img04740.jpg  740w,
+                      ./images/img04900.jpg  900w,
+                      ./images/img041110.jpg 1110w,
+                      ./images/img041350.jpg 1350w "
+                    src="./images/img04370.jpg"
                     alt="повнорозмірні навушники"
-                    width="370"
+                    sizes="(min-width: 1120px) 25vw, (min-width: 768px) 33vw, (min-width: 480px) 50vw, 100vw "
                   />
                   <p class="works__meta">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -185,9 +212,16 @@
                 <div class="works__image-wrapper">
                   <img
                     class="works__image"
-                    src="./images/img05.jpg"
+                    srcset="
+                      ./images/img05370.jpg  370w,
+                      ./images/img05450.jpg  450w,
+                      ./images/img05740.jpg  740w,
+                      ./images/img05900.jpg  900w,
+                      ./images/img051110.jpg 1110w,
+                      ./images/img051350.jpg 1350w "
+                    src="./images/img05370.jpg"
                     alt="дві коробочки"
-                    width="370"
+                    sizes="(min-width: 1220px) 25vw, (min-width: 768px) 33vw, (min-width: 480px) 50vw, 100vw"
                   />
                   <p class="works__meta">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -207,9 +241,16 @@
                 <div class="works__image-wrapper">
                   <img
                     class="works__image"
-                    src="./images/img06.jpg"
+                    srcset="
+                      ./images/img06370.jpg  370w,
+                      ./images/img06450.jpg  450w,
+                      ./images/img06740.jpg  740w,
+                      ./images/img06900.jpg  900w,
+                      ./images/img061110.jpg 1110w,
+                      ./images/img061350.jpg 1350w "
+                    src="./images/img06370.jpg"
                     alt="компютерний монітор з відкритою веб сторінкою"
-                    width="370"
+                    sizes="(min-width: 1220px) 25vw, (min-width: 768px) 33vw, (min-width: 480px) 50vw, 100vw"
                   />
                   <p class="works__meta">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -229,9 +270,16 @@
                 <div class="works__image-wrapper">
                   <img
                     class="works__image"
-                    src="./images/img07.jpg"
+                    srcset="
+                      ./images/img07370.jpg  370w,
+                      ./images/img07450.jpg  450w,
+                      ./images/img07740.jpg  740w,
+                      ./images/img07900.jpg  900w,
+                      ./images/img071110.jpg 1110w,
+                      ./images/img071350.jpg 1350w "
+                    src="./images/img07370.jpg"
                     alt="відкрита книга з малюнками"
-                    width="370"
+                    sizes="(min-width: 1220px) 25vw, (min-width: 768px) 33vw, (min-width: 480px) 50vw, 100vw"
                   />
                   <p class="works__meta">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -251,9 +299,16 @@
                 <div class="works__image-wrapper">
                   <img
                     class="works__image"
-                    src="./images/img08.jpg"
+                    srcset="
+                      ./images/img08370.jpg  370w,
+                      ./images/img08450.jpg  450w,
+                      ./images/img08740.jpg  740w,
+                      ./images/img08900.jpg  900w,
+                      ./images/img081110.jpg 1110w,
+                      ./images/img081350.jpg 1350w "
+                    src="./images/img08370.jpg"
                     alt="картонна бірка проекту LAB EL TAG"
-                    width="370"
+                    sizes="(min-width: 1220px) 25vw, (min-width: 768px) 33vw, (min-width: 480px) 50vw, 100vw"
                   />
                   <p class="works__meta">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -273,9 +328,16 @@
                 <div class="works__image-wrapper">
                   <img
                     class="works__image"
-                    src="./images/img09.jpg"
+                    srcset="
+                      ./images/img09370.jpg  370w,
+                      ./images/img09450.jpg  450w,
+                      ./images/img09740.jpg  740w,
+                      ./images/img09900.jpg  900w,
+                      ./images/img091110.jpg 1110w,
+                      ./images/img091350.jpg 1350w "
+                    src="./images/img09370.jpg"
                     alt="відкритий ноутбук з вебсторінкою Growing Business"
-                    width="370"
+                    sizes="(min-width: 1220px) 25vw, (min-width: 768px) 33vw, (min-width: 480px) 50vw, 100vw"
                   />
                   <p class="works__meta">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.

@@ -36,6 +36,8 @@
     }
     &__foto {
         display: block;
+        max-width: 100%;
+        height: auto;
     }
     &_wrapper {
         padding-top: 30px;
