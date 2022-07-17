@@ -92,7 +92,7 @@ body {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    z-index: 2;
+    z-index: 1;
   }
 }
 .header__logo {
