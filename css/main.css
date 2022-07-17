@@ -78,7 +78,6 @@ body {
 .header {
   border-bottom: 1px solid #ececec;
   margin: 0;
-  position: relative;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -92,6 +91,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    z-index: 2;
   }
 }
 .header__logo {

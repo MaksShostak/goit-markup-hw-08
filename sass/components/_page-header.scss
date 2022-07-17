@@ -1,7 +1,7 @@
 .header {
     border-bottom: 1px solid #ececec;
     margin: 0;
-    position: relative;
+    
 
     font-family: $font-primary;
     font-style: normal;
@@ -19,6 +19,9 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            
+            position: relative;
+                z-index: 2;
         }
     }
 
