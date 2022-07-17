@@ -10,14 +10,17 @@
     transition-property: opacity, visibility;
     transition-duration: 1000ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    overflow-y: scroll;
 }
 .backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
+    overflow-y: scroll;
     .contact-form {
             transform: translate(-50%, -50%) scale(0);
         }
+
 }
 .contact-form {
     position: absolute;
@@ -41,6 +44,7 @@
 
     @media screen and (max-width: 1199px) {
             width: 450px;
+            min-height: 609px;
         }
      @media screen and (min-width: 1200px) {
             min-width: 528px;

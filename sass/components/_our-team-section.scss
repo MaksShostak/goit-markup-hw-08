@@ -6,6 +6,7 @@
     &__container {
             flex-direction: column;
             @extend %container;
+            
         }
     &__title {
         margin-top: 0;
