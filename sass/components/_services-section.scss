@@ -1,6 +1,10 @@
 .services{
     @extend %section;
 
+    @media screen and (max-width: 1199px) {
+            display: none
+        }
+
     &__container {
             flex-direction: column;
             @extend %container
@@ -32,7 +36,7 @@
     }
     &__foto {
         display: block;
-        max-width: 100%;
+        width: 100%;
         height: auto;
     }
     &__header {
