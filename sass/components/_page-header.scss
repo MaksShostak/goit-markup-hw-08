@@ -244,7 +244,11 @@
     &__item {
         @media screen and (max-width: 767px) {
                 
-                &:not(:first-child){ margin-bottom:  32px;}
+                &:not(:first-child){
+                     margin-bottom:  32px;
+                    
+                }
+                                
                 
             }
         
@@ -287,6 +291,11 @@
         @media screen and (max-width: 767px) {
                     font-size: 34px;
                         line-height: 1.17;
+
+                        &:first-child{
+                            font-size: 24px;
+                            line-height: 1.16;
+                        }
                 }
         @media screen and (min-width: 768px) {
                 padding: 0;
