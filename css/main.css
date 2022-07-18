@@ -144,6 +144,10 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     background-color: #ffffff;
     text-align: center;
     padding: 48px 40px;
@@ -206,7 +210,6 @@ body {
 @media screen and (max-width: 767px) {
   .site-nav {
     display: block;
-    margin-bottom: 306px;
   }
 }
 .site-nav__item-page:not(:last-child) {
@@ -358,6 +361,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    align-self: center;
   }
   .social-contact__item:not(:last-child) {
     border-right: 1px solid rgba(33, 33, 33, 0.2);
@@ -365,7 +369,7 @@ body {
   .social-contact__link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: #2196f3;

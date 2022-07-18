@@ -79,6 +79,10 @@
                         left: 0;
                         width: 100vw;
                         height: 100vh;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: flex-start;
                             // min-height:796px;
                         background-color: $primary-white-color;
                         text-align: center;
@@ -163,7 +167,7 @@
 
     @media screen and (max-width: 767px){
         display: block;
-        margin-bottom: 306px;
+        
     }
       
 
@@ -215,9 +219,10 @@
     
                 background-color: $accent-color;
                 border-radius: 2px;
-                @media screen and (max-width: 767px){
-                    display: none;
-                }
+
+                @media screen and (max-width: 767px) {
+                        display: none;
+                    }
             }
     
         }
@@ -342,6 +347,7 @@
         display:flex;
         align-items:center;
         justify-content:center;
+        align-self: center;
 
         &__item{
          
@@ -355,7 +361,7 @@
         &__link{
             font-family: $font-primary;
             font-weight: 500;
-                font-size: 18px;
+                font-size: 12px;
                 line-height: 1.22;
                 letter-spacing: 0.02em;
                 color:$accent-color;
