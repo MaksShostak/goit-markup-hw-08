@@ -17,8 +17,8 @@
     
 
     @media screen and (max-width: 767px) {
-        // width: 480px;
-        // height: 400px;
+        max-width: 480px;
+        min-height: 400px;
         padding-top: 118px;
         padding-bottom: 118px;
         background-image: linear-gradient(to right,
@@ -39,8 +39,8 @@
         }
                 }
     @media screen and (min-width: 768px) {
-            // width: 768px;
-            // height: 400px;
+            max-width: 768px;
+            min-height: 400px;
             padding-top: 118px;
             padding-bottom: 118px;
                     
@@ -58,8 +58,8 @@
                     }
                 }
     @media screen and (min-width: 1200px) {
-                // width: 1600px;
-                // height: 600px;
+                max-width: 1600px;
+                min-height: 600px;
                 padding-top: 200px;
                 padding-bottom: 200px;
                 background-image: linear-gradient(to right,
